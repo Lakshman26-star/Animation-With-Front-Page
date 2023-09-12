@@ -1,0 +1,245 @@
+
+body{
+ 
+ background-color: lightblue;
+ background-image: url(easy.jpg);	
+
+}
+
+h1{
+	color: red;
+	text-align: center;
+}
+
+.main{
+	width: 1350px;
+	height: 605px;
+	background-color: yellow;
+	background-image: url(easy.jpg);
+     background-size: cover;
+	background-position: center;
+
+}
+
+
+@keyframes example {
+
+0% { left: 0px;
+     top: 0px; 
+     background-color: blue;
+	  
+     }
+
+25% {left: 1330px;
+	top: 0px;
+    background-color: red;
+}
+
+50% {left: 1330px;
+	top: 585px;
+    background-color: green; }
+
+75% {left: 0px;
+	top: 585px;
+    background-color: red; }
+
+100% {left: 0px;
+	top: 0px;
+    background-color: blue; }        
+
+}
+
+.div_main{
+
+	width: 20px;
+	height:605px;
+	background-color: lightblue;
+	border-radius: 50px;
+
+}
+
+.lite{
+	margin: -70px 100px;
+	width: 200px;
+	height:460px;
+	background-color: darkorange;
+	border-radius: 50px;
+
+}
+
+.d_ani{
+	width: 20px;
+	height: 20px;
+	background-color: blue;
+	border-radius: 5px;
+	position: relative;
+	animation: example 8s infinite alternate ease-out;
+
+
+}
+
+.div2{
+	margin: 18px 50px;
+	width: 100px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 5px;
+	text-align: center;
+	background: white;
+	color: black;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: 0.2s ease; 
+
+}
+
+.div2 a {
+	text-decoration: none;
+	color: black;
+}
+.div2:hover{
+
+	background: orange;
+	color: black;
+
+}
+
+@keyframes red1 {
+
+	from{
+        transform: scale(0.3);
+		border-radius:  0px;
+		background-color: lightblue;
+	}
+
+	to{
+		transform: scale(1.00);
+		border-radius:  100px;
+		background-color: red;
+	}
+
+}
+.right{
+	width: 200px;
+	height: 200px;
+	margin:-400px 600px;
+    background-color: red;
+    border-radius: 
+	position: relative;
+	animation: red1 8s infinite alternate ease-out;
+
+}
+
+.img{
+
+	width: 102px;
+	height: 102px;
+	margin: 37px auto;
+	background-color: black;
+	background-image: url(um.png);
+	background-size: cover;
+	background-position: center;
+	border-radius: 8px;
+
+	
+}
+
+@keyframes animate{
+
+from{ left: 0px; background-color: blue;
+     top: 0%;}  
+
+to{ left: 10px;
+    top: 97px; }
+
+}
+
+.div12{
+	width: 3px;
+	height: 4px;
+	margin: 5px 12px;
+	border-radius: 5px;
+	background-color: lightblue;
+	position: relative;
+	animation: animate 2s infinite;
+	animation-timing-function: ease-in;
+
+}
+
+
+.div13{
+	width: 3px;
+	height: 4px;
+	margin: -8px 60px;
+	border-radius: 5px;
+	background-color: lightblue;
+	position: relative;
+	animation: animate 2s infinite;
+	animation-timing-function: ease-in;
+
+}
+
+
+@keyframes b{
+
+from{ left: 0px; background-color: blue;
+     top: 0%;}  
+
+to{ left: 10px;
+    top: 99px; }
+
+}
+
+.div14{
+	width: 3px;
+	height: 4px;
+	margin: 2px 25px;
+	border-radius: 5px;
+	background-color: lightblue;
+	position: relative;
+	animation: b 2s infinite;
+	animation-timing-function: ease-in;
+
+}
+
+
+.div15{
+	width: 3px;
+	height: 4px;
+	margin: -3px 36px;
+	border-radius: 5px;
+	background-color: lightblue;
+	position: relative;
+	animation: b 2s infinite;
+	animation-timing-function: ease-in;
+}
+
+.div16{
+	width: 3px;
+	height: 4px;
+	margin: -3px 48px;
+	border-radius: 5px;
+	background-color: lightblue;
+	position: relative;
+	animation: b 2s infinite;
+	animation-timing-function: ease-in;
+
+}
+
+
+.div17{
+	width: 3px;
+	height: 4px;
+	margin: -6px 80px;
+	border-radius: 5px;
+	background-color: lightblue;
+	position: relative;
+	animation: b 2s infinite;
+	animation-timing-function: ease-in;
+
+}
+
+
+
